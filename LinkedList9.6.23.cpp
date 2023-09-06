@@ -36,8 +36,10 @@ int main()
 
     head->Value = 1;
     head->Next = second;
+    
     second->Value = 2;
     second->Next = third;
+    
     third->Value = 3;
     third->Next = NULL;
 
